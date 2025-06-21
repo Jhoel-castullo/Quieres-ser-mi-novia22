@@ -1,0 +1,17 @@
+* { margin:0; padding:0; }
+body { background:#fcfcfc; }
+.contenedor {
+  margin:auto; width:900px; margin-top:300px; text-align:center;
+}
+.titulo { margin-bottom:20px; }
+.opciones p {
+  background:#000; padding:12px; color:#fff; border-radius:2px;
+  font-weight:bold; position:absolute;
+}
+.p1 { top:400px; left:500px; width:100px; }
+.p2 { top:400px; left:750px; width:100px; }
+.p1:hover, .p2:hover { background:gray; cursor:pointer; }
+#si {
+  background:#515050; position:absolute; top:122px; left:420px;
+  width:550px; color:#fff; padding:50px; display:none;
+}
